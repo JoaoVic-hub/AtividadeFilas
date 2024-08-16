@@ -29,7 +29,7 @@ public class FilaCircular {
 
     public int primeiro() {
         if (vazia()) {
-            return -1; // Erro: Fila vazia
+            return -1;
         }
         return dados[inicio];
     }
@@ -46,7 +46,7 @@ public class FilaCircular {
 
     public int remove() {
         if (vazia()) {
-            return -1; // Erro: Fila vazia
+            return -1;
         }
         int valorRemovido = dados[inicio];
         inicio = (inicio + 1) % tamMax; // Incremento circular

@@ -2,7 +2,7 @@ package src;
 
 public class Main {
     public static void main(String[] args) {
-        FilaCircular fila = new FilaCircular(5); // Exemplo de fila com tamanho máximo de 5 elementos
+        FilaCircular fila = new FilaCircular(5); // fila com tamanho máximo de 5 elementos
 
         // Teste de inserção
         System.out.println("Inserindo elementos na fila...");
